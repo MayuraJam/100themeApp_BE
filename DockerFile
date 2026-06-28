@@ -21,4 +21,4 @@ COPY . .
 # Copy ไฟล์ที่ build เสร็จแล้วไปที่โฟลเดอร์ของ Nginx
 # COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 3000
-CMD ["npm","start"]
+CMD ["npm","run","dev"]
