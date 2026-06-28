@@ -24,6 +24,8 @@ yarn-error.log*
 logs/
 *.log
 
+package-lock.json
+
 # --- Docker ---
 # ถ้าคุณใช้ Docker และมีการเก็บข้อมูลไว้ในเครื่อง
 .docker/
